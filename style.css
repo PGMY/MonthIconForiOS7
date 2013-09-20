@@ -1,0 +1,15 @@
+.image-box {
+      margin-top: 100px;
+      position: relative;
+      z-index: 1;
+
+}
+.image-box .shadow {
+      -moz-box-shadow: inset 0px 0px 12px rgba(0,0,0,.6);
+      -webkit-box-shadow: inset 0px 0px 12px rgba(0,0,0,.6);
+      box-shadow: inset 0px 0px 12px rgba(0,0,0,.6);
+}
+.image-box .shadow img {
+      position: relative;
+      z-index: -1;
+}
