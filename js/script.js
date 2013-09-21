@@ -44,13 +44,13 @@ $(document).ready(function(){
 	}
 
     
-	var cal = month+'.png';
+	var calImg = 'img/'+month+'.png';
 	$('#icon').remove();
-	$('meta:last').after($(document.createElement('link')).attr('id', 'icon').attr('rel', 'apple-touch-icon-precomposed').attr('href', cal));
+	$('meta:last').after($(document.createElement('link')).attr('id', 'icon').attr('rel', 'apple-touch-icon-precomposed').attr('href', calImg));
 
 	var iconImg = $('#iconimg');
 	iconImg.empty();
-	iconImg.append('<img src="'+cal+'">');
+	iconImg.append('<img src="'+calImg+'">');
 });
 
 
