@@ -23,3 +23,8 @@
   -moz-transform: skew(-50deg);
   transform: skew(-50deg);
 }
+
+.radius {
+	border-radius: 30px;
+}
+
