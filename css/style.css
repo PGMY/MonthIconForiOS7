@@ -1,15 +1,25 @@
-.image-box {
-      margin-top: 10px;
-      position: relative;
-      z-index: 1;
-
+.css-box-shadow {
+  width:133px;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+  -moz-box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+  box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+  padding: 2px;
+  background: white;
 }
-.image-box .shadow {
-      -moz-box-shadow: inset 0px 0px 12px rgba(0,0,0,.6);
-      -webkit-box-shadow: inset 0px 0px 12px rgba(0,0,0,.6);
-      box-shadow: inset 0px 0px 12px rgba(0,0,0,.6);
-}
-.image-box .shadow img {
-      position: relative;
-      z-index: -1;
+ 
+.css-deep-shadow:after {
+  content: '';
+  -webkit-box-shadow:  100px 0 10px 20px rgba(0,0,0,.2);
+  -moz-box-shadow:  100px 0 10px 20px rgba(0,0,0,.2);
+  box-shadow:  100px 0 10px 20px rgba(0,0,0,.2);
+  position: absolute;
+  width: 10%;
+  height: 5px;
+  bottom: 23px;
+  right: 90px;
+  z-index: -1;
+  -webkit-transform: skew(-50deg);
+  -moz-transform: skew(-50deg);
+  transform: skew(-50deg);
 }
