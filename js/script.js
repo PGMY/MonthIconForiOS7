@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 	var iconImg = $('#iconimg');
 	iconImg.empty();
-	iconImg.append('<img src="'+calImg+'">');
+	iconImg.append('<img src="'+calImg+'" class="radius">');
 });
 
 
